@@ -8,4 +8,8 @@ HTML, CSS, jQuery
 
 # Example
 
+## Greybox
+
+![greybox layout](portfolio-greybox-tiny.png)
+
 # Challenges
