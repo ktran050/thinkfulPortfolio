@@ -9,6 +9,14 @@
   line-height: 24px;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
 .short,
 .projects {
   color: white;
