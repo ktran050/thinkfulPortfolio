@@ -1,7 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.short,
+.projects {
+  color: white;
+  background: #247ba0;
 }
 
 .masthead {
@@ -11,11 +22,12 @@
   justify-content: space-around;
   width: 100%;
   padding: 10px;
-  background: lightgrey;
   top: 0;
+  font-family: "Roboto";
+  height: 20px;
 }
 
-.masthead-header {
+.masthead-title {
   display: inline;
   font-weight: bold;
 }
@@ -32,19 +44,29 @@
 }
 
 .content {
-  width: 70%;
-  margin: 100px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 42px auto 0 auto;
 }
 
 .content > section {
-  border: black 1px dotted;
-  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 200px;
 }
 
 .footer {
-  background: lightgrey;
   position: fixed;
   bottom: 0;
   width: 100%;
+  font-family: "Roboto";
+  height: 20px;
+  padding: 10px;
+}
+
+.banner {
+  color: black;
+  background: #f8f8ff;
+  border: 1px black solid;
 }
