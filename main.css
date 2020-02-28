@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap");
 
-* {
+element Styling * {
   padding: 0;
   margin: 0;
   text-align: center;
@@ -9,33 +9,37 @@
   line-height: 24px;
 }
 
-html {
-  height: 100%;
+/* Banner */
+
+.banner {
+  color: black;
+  background: #f8f8ff;
+  /* border: 1px black solid; */
+  font-family: "Roboto";
 }
 
-body {
-  min-height: 100%;
-}
-
-.short,
-.projects {
-  color: white;
-  background: #247ba0;
-}
-
-.masthead {
+.header {
   position: fixed;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   padding: 10px;
   top: 0;
   font-family: "Roboto";
-  height: 20px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.masthead-title {
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  padding: 10px;
+}
+
+.header-title {
   display: inline;
   font-weight: bold;
 }
@@ -59,22 +63,30 @@ body {
 
 .content > section {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 200px;
+  justify-content: space-around;
+  height: 300px;
+  padding: 20px;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-family: "Roboto";
-  height: 20px;
-  padding: 10px;
+.short,
+.projects {
+  color: white;
+  background: #247ba0;
 }
 
-.banner {
-  color: black;
-  background: #f8f8ff;
-  border: 1px black solid;
+/* Responsive Styling */
+
+@media only screen and (min-width: 750px) {
+  .content > section {
+    flex-direction: row;
+    height: 550px;
+  }
+}
+
+.hero-img {
+  height: 180px;
+  width: 150px;
+  margin-bottom: 10px;
 }
