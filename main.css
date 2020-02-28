@@ -15,7 +15,7 @@
 
 .banner {
   font-family: "Roboto";
-  background: #f8f8ff;
+  background: white;
   color: black;
 }
 
@@ -38,6 +38,7 @@
   padding: 10px;
   position: fixed;
   bottom: 0;
+  border-top: 1px solid black;
 }
 
 .header-title {
@@ -83,6 +84,16 @@
   height: 180px;
   width: 150px;
   margin-bottom: 10px;
+}
+
+.pictureSide {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkSide {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Responsive Styling */
