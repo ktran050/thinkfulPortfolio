@@ -19,7 +19,7 @@
   color: black;
 }
 
-.header {
+header {
   width: 100%;
   padding: 10px;
   margin: 0;
@@ -32,18 +32,13 @@
   border-bottom: 1px solid black;
 }
 
-.footer {
+footer {
   width: 100%;
   height: 20px;
   padding: 10px;
   position: fixed;
   bottom: 0;
   border-top: 1px solid black;
-}
-
-.header-title {
-  display: inline;
-  font-weight: bold;
 }
 
 .nav-items {
@@ -59,13 +54,13 @@
 
 /* Main Styling */
 
-.content {
+main {
   display: flex;
   flex-direction: column;
   margin: 42px auto 0 auto;
 }
 
-.content > section {
+main > section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,6 +84,7 @@
 .pictureSide {
   display: flex;
   flex-direction: column;
+  justify-items: center;
 }
 
 .linkSide {
@@ -96,13 +92,19 @@
   flex-direction: column;
 }
 
+.projectImg {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
 /* Responsive Styling */
 
 @media only screen and (min-width: 750px) {
-  .content > .short {
+  main > .short {
     flex-direction: row;
   }
-  .content > section {
+  main > section {
     height: 550px;
   }
 }
