@@ -78,7 +78,7 @@ main > section {
 .hero-img {
   height: 180px;
   width: 150px;
-  margin-bottom: 10px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
 }
 
 .pictureSide {
@@ -96,6 +96,7 @@ main > section {
   height: 100px;
   width: 100px;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 /* Responsive Styling */
