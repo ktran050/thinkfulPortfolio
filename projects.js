@@ -13,10 +13,11 @@ projectList = [
 function renderProjects() {
   const projectsHTML = `
   <h1> Projects</h1><br>
+  <div class="container">
   <div class="pictureSide">
     <h3>QuizApp</h3>
     <img
-      src="https://user-images.githubusercontent.com/9054819/76269070-3398e380-6268-11ea-8f84-f644ac9f788b.PNG"
+      src="https://user-images.githubusercontent.com/9054819/76268751-013ab680-6267-11ea-9229-08e2f7806774.PNG"
       alt=""
       class="projectImg"
     /><br>
@@ -36,6 +37,7 @@ function renderProjects() {
       <div><img src="https://www.pinclipart.com/picdir/big/175-1759459_eng-a-med-kamel-frameworks-css-css-logo.png" alt="CSS3 Logo" class="big-badge"></div>
       <div><img src="https://www.pinclipart.com/picdir/big/371-3712206_javascript-javascript-logo-png-clipart.png" alt="JS5 Logo" class="big-badge"></div>
       </div>
+  </div>
   </div>
   `;
   $(".projects").html(projectsHTML);
