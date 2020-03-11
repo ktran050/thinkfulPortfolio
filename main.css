@@ -72,12 +72,6 @@ footer {
   bottom: 0;
   color: black;
 }
-
-.nav-items > a > li:hover {
-  font-weight: bold;
-  font-size: 28px;
-}
-
 /* Main Styling */
 
 main {
@@ -238,5 +232,6 @@ main > a > section {
     font-size: 28px;
   }
   .nav-items > a > li:hover {
+    font-weight: bold;
     font-size: 32px;
 }
