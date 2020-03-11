@@ -11,6 +11,7 @@ projectList = [
 ];
 
 function renderProjects() {
+  console.log("projectsList rendered");
   const projectsHTML = `
   <h1> Projects</h1><br>
   <div class="container">
