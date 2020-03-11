@@ -36,6 +36,10 @@ h3 {
   font-size: 1.25em;
 }
 
+ul > a {
+  text-decoration: none;
+}
+
 header {
   margin: 0;
   position: fixed;
@@ -53,7 +57,7 @@ footer {
   border-top: 1px solid black;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -62,10 +66,16 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.nav-items > li {
+.nav-items > a > li {
   list-style: none;
   padding: 0 5px;
   bottom: 0;
+  color: black;
+}
+
+.nav-items > a > li:hover {
+  font-weight: bold;
+  font-size: 28px;
 }
 
 /* Main Styling */
@@ -77,13 +87,17 @@ main {
   font-family: "Roboto Mono";
 }
 
-main > section {
+main > a > section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 350px;
+  height: 450px;
   padding: 20px;
+}
+
+.long {
+  justify-content: center;
 }
 
 .short {
@@ -121,7 +135,7 @@ main > section {
 .linkSide {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 10px auto;
 }
 
@@ -134,8 +148,8 @@ main > section {
 }
 
 .big-badge {
-  height: 65px;
-  width: 65px;
+  height: 55px;
+  width: 55px;
   vertical-align: middle;
 }
 
@@ -148,7 +162,7 @@ main > section {
 .badge-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 10px auto;
 }
 
@@ -172,8 +186,8 @@ main > section {
     height: 800px;
   }
   .hero-img {
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
   }
   .short {
     flex-direction: row;
@@ -195,12 +209,16 @@ main > section {
     justify-content: space-evenly;
     height: 500px;
   }
-  main > section {
-    height: 350px;
+  main > a > section {
+    height: 550px;
   }
-  .badge {
+  .small-badge {
     height: 50px;
     width: 50px;
+  }
+  .big-badge {
+    height: 100px;
+    width: 100px;
   }
   footer {
     height: 100px;
@@ -216,4 +234,9 @@ main > section {
     height: 100%;
     width: 45%;
   }
+  .nav-items > a > li {
+    font-size: 28px;
+  }
+  .nav-items > a > li:hover {
+    font-size: 32px;
 }
