@@ -13,7 +13,7 @@ projectList = [
 function renderProjects() {
   console.log("projectsList rendered");
   const projectsHTML = `
-  <h1> Projects</h1><br>
+  <h2> Projects</h2><br>
   <div class="container">
   <div class="pictureSide">
     <h3>QuizApp</h3>
