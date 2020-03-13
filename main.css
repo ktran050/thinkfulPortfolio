@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   font-family: "Oswald";
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h3 {
@@ -50,6 +50,12 @@ header {
   box-sizing: border-box;
   border-bottom: 1px solid black;
   z-index: 10;
+  height: 75px;
+  align-items: center;
+}
+
+header > nav {
+  vertical-align: middle;
 }
 
 footer {
@@ -172,6 +178,9 @@ main > a > section {
   * {
     font-size: 24px;
   }
+  header {
+    height: 90px;
+  }
   .projectImg {
     height: 380px;
     width: 100%;
@@ -234,4 +243,5 @@ main > a > section {
   .nav-items > a > li:hover {
     font-weight: bold;
     font-size: 32px;
+  }
 }
