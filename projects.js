@@ -6,8 +6,8 @@ projectList = [
     technologies: ["html", "css", "js"],
     liveLink: "https://ktran050.github.io/quizApp/index.html",
     repoLink: "https://github.com/ktran050/quizApp",
-    img: "https://i.picsum.photos/id/1008/200/200.jpg"
-  }
+    img: "https://i.picsum.photos/id/1008/200/200.jpg",
+  },
 ];
 
 function renderProjects() {
@@ -22,7 +22,7 @@ function renderProjects() {
       class="projectImg"
     /><br>
     <p>
-    <div class="link-list"><a href="https://ktran050.github.io/quizApp/index.html">Live Demo</a><a href="https://github.com/ktran050/quizApp">Github Repo</a></div>
+    <div class="link-list"><a href="https://ktran050.github.io/quizApp/index.html" target="_blank">Live Demo</a><a href="https://github.com/ktran050/quizApp" target="_blank">Github Repo</a></div>
   </p>
   </div>
   <div class="linkSide">
