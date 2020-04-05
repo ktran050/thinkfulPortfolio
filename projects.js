@@ -2,7 +2,7 @@ projectList = [
   {
     name: "Quiz App",
     description:
-      "A Disneyland quiz meant to showcase my progress in responsive, and scalable design as well as jQuery",
+      "A Disneyland quiz meant to showcase my progress in responsive and scalable design as well as jQuery.",
     technologies: ["html", "css", "js"],
     liveLink: "https://ktran050.github.io/quizApp/index.html",
     repoLink: "https://github.com/ktran050/quizApp",
@@ -27,8 +27,8 @@ function renderProjects() {
   </div>
   <div class="linkSide">
   <p>
-  A Disneyland quiz meant to showcase my progress in responsive, and scalable
-  design as well as jQuery
+  A Disneyland quiz meant to showcase my progress in responsive and scalable
+  design as well as jQuery.
 </p>
   <div>
     <h3> Made With: </h3>
