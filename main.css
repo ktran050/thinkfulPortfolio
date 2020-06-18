@@ -94,7 +94,6 @@ main > a > section {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 450px;
   padding: 50px;
 }
 
@@ -111,10 +110,6 @@ main > a > section {
 .projects {
   color: white;
   background: #247ba0;
-}
-
-.projects {
-  height: 600px;
 }
 
 .link-list > a {
@@ -212,17 +207,13 @@ main > a > section {
     height: 600px;
   }
   .projects {
-    height: 600px;
     padding: 30px;
   }
   .projects > .container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 500px;
-  }
-  main > a > section {
-    height: 550px;
+    margin-bottom: 30px;
   }
   .small-badge {
     height: 50px;
